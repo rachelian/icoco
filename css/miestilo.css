@@ -1,0 +1,102 @@
+@font-face {
+	font-family: Pixel Intv;
+	src: url(../font/Pixel_Intv.otf);
+}
+@font-face {
+	font-family: pixelates;
+	src: url(../font/pixelates.ttf);
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Pixel Intv;
+}
+.p {
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+/*-- NOMBRE LOGO --*/
+.letra {
+	font-size: 25px;
+}
+/*-- /NOMBRE LOGO --*/
+/*-- TITULOS --*/
+h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*-- /TITULOS --*/
+/*-- MENU --*/
+.nav-link:hover {
+	background: rgba(255,255,255, 0.5);
+}
+.color-menu1:hover {
+	background: rgba(206,255,51, 0.2);
+}
+.color-menu2:hover {
+	background: rgba(51,255,255, 0.2);
+}
+.color-menu3:hover {
+	background: rgba(255,136,221, 0.2);
+}
+nav {
+	border-bottom: #2ED3FF 2px solid;
+}
+/*-- /MENU --*/
+/*-- CARDS --*/
+.color-1 {
+	background: rgba(90, 214, 44 , 1);
+	color: white;
+}
+.color-2 {
+	background: rgba(51,255,255, 1);
+}
+.color-3 {
+	background: rgba(255,136,221, 1);
+	color: white;
+}
+.img-produc {
+	width: 250px;
+	height: 180px;
+}
+.padin {
+	padding: 15px;
+}
+/*-- /CARDS --*/
+/*-- CARRUCEL --*/
+#carouselExampleIndicators img {
+	height: 400px;
+}
+#carouselExampleIndicators2 img {
+	height: 400px;
+}
+#carouselExampleControls3 img {
+	height: 400px;
+}
+/*-- /CARRUCEL --*/
+/*-- PIE DE PÁGINA --*/
+footer {
+	background-color: #A9F5BC;
+	opacity: .8;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top: #2ED3FF 2px solid;
+}
+/*-- /PIE DE PÁGINA --*/
+/*-- ERROR FORMULARIO --*/
+.error {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgba(255, 0, 0, .3);
+    background-clip: padding-box;
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/*-- /ERROR FORMULARIO --*/

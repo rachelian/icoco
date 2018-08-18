@@ -1,0 +1,41 @@
+.btn-salir:hover {
+	background: rgba(255,0,0, .3);
+}
+.margen {
+	margin-top: 90px;
+}
+.margen-tabla {
+	margin-top: 30px;
+}
+.boton-tabla {
+	margin-left: 10px;
+}
+nav, a {
+	background-color: #90F1DC;
+	color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link  {
+	background-color: rgba(0,0,0, .1);
+}
+.error {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgba(255, 0, 0, .3);
+    background-clip: padding-box;
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.cancelado {
+    background: rgba(255, 0, 0, 0.4);
+}
+.pendiente {
+    background: rgba(255, 174, 0, 0.4);
+}
+.entregado {
+    background: rgba(116, 255, 0, 0.4);
+}
